@@ -1,0 +1,116 @@
+/* Global Styles */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+  }
+  
+  /* Navbar */
+  .navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #110672d0;
+    padding: 0.5rem 1rem;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+    border-bottom: 4px solid #f1f1f7;
+  }
+  
+  .navbar-nav .nav-link {
+    margin-left: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #0d6efd;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background: linear-gradient(to right, #0d6efd, #6610f2);
+    color: white;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  #hero .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+  }
+  
+  /* Section Headings */
+  section h2 {
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* About Section */
+  #about img {
+    border-radius: 1rem;
+  }
+  
+  /* Portfolio Cards */
+  #portfolio .card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #portfolio .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Tools */
+  #tools img {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Review Cards */
+  #reviews .card {
+    border: none;
+    border-left: 5px solid #0d6efd;
+    background-color: #ffffff;
+    padding: 1rem;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  #reviews .card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Contact Form */
+  #contact form input,
+  #contact form textarea {
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  #contact form button {
+    padding: 0.6rem 1.5rem;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #212529;
+    color: #fff;
+  }
+  
+  footer a {
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: #0d6efd;
+  }
+  
