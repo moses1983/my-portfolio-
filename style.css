@@ -13,6 +13,7 @@ html {
   .navbar {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     background-color: #110672d0;
+    font-size: 1.2rem;
     padding: 0.5rem 1rem;
     border-bottom-left-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
@@ -41,10 +42,14 @@ html {
     font-weight: bold;
     margin-bottom: 2rem;
   }
+
+  #hero p {
+    font-size: 2.5rem;
+    }
   
   #hero .btn {
     padding: 0.75rem 1.5rem;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
   
   /* Section Headings */
