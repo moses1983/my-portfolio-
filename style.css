@@ -12,7 +12,7 @@ html {
   /* Navbar */
   .navbar {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    background-color: #110672d0;
+    background-color: #0d6efd;
     font-size: 1.2rem;
     padding: 0.5rem 1rem;
     border-bottom-left-radius: 0.8rem;
@@ -65,6 +65,21 @@ html {
   #about img {
     border-radius: 1rem;
   }
+
+  #about {
+    background-color: #7ce9e0c2;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  #about p {
+    font-size: 1.1rem;
+  }
+
+  #about ul {
+    font-size: 1.5rem;
+  }
   
   /* Portfolio Cards */
   #portfolio .card {
@@ -96,19 +111,41 @@ html {
   }
   
   /* Contact Form */
-  #contact form input,
-  #contact form textarea {
-    border-radius: 0.5rem;
-    border: 1px solid #ccc;
+  #contact form {
+    padding: 30px;
+    border-radius: 12px;
+    background-color: none;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
   }
   
-  #contact form button {
-    padding: 0.6rem 1.5rem;
+  #contact input,
+  #contact textarea {
+    border-radius: 8px;
+    background-color: none;
+    color: #000;
   }
   
-  /* Footer */
+  #contact input:focus,
+  #contact textarea:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.2);
+  }
+  
+  #contact button {
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 10px 24px;
+  }
+  
+  #contact label {
+    display: block;
+    color: #000;
+    font-weight: 500;
+  }
+
+/* Footer */
   footer {
-    background-color: #212529;
+    background-color: #0d6efd;
     color: #fff;
   }
   
